@@ -10,17 +10,12 @@ const config: Config = {
             center: true,
             padding: {
                 DEFAULT: "1rem",
-                md: "2rem",
-                lg: "4rem",
+                md: "1.5rem",
+                lg: "1.5rem",
             },
         },
         fontFamily: {
-            sans: ["var(--font-inter)", "sans-serif"],
-        },
-        screens: {
-            sm: "375px",
-            md: "768px",
-            lg: "1200px",
+            sans: ['Inter', 'Helvetica', 'Arial', 'sans-serif'],
         },
     },
     plugins: [],

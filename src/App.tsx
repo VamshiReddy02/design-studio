@@ -12,13 +12,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Introduction />
-      <Projects />
-      <Logoticker />
-      <RoadMap />
-      <Blogs />
-      <Footer />
     </>
   )
 }
