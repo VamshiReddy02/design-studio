@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Features", href: "#features" },
   { label: "Integrations", href: "#integrations" },
   { label: "FAQs", href: "#faqs" },
+  { label: "Careers", href: "#careers" },
 ]
 const Navbar = () => {
   return (
@@ -21,7 +22,7 @@ const Navbar = () => {
           <div className='flex justify-end items-center gap-14'>
             <IoMenu className='h-10 w-10 md:hidden'/>
             <div className='hidden lg:flex justify-center items-center'>
-              <nav className='flex gap-20 font-sm'>
+              <nav className='flex gap-12 font-sm'>
                 {navLinks.map((link) => (
                   <a key={link.label} href={link.href}>
                     {link.label}
