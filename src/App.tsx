@@ -1,4 +1,3 @@
-import Blogs from "./sections/Blogs"
 import Footer from "./sections/Footer"
 import Hero from "./sections/Hero"
 import Introduction from "./sections/Introduction"
@@ -17,6 +16,7 @@ function App() {
       <Projects />
       <RoadMap />
       <Logoticker />
+      <Footer />
     </>
   )
 }
