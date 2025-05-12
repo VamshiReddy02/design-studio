@@ -1,5 +1,4 @@
 import { IoMenu } from 'react-icons/io5'
-import logoImage from '../assets/images/logo.png'
 import Button from '../components/Button'
 
 const navLinks = [
@@ -16,7 +15,8 @@ const Navbar = () => {
         <div className='flex justify-between items-center'>
           {/* logo Image */}
           <div>
-            <img src={logoImage} alt='logo' className='h-9 md:h-auto w-auto' />
+            <h1 className='text-4xl h-2 md:h-auto w-auto uppercase tracking-[1rem]'>VYNSX</h1>
+            {/* <img src={logoImage} alt='logo' className='h-9 md:h-auto w-auto' /> */}
           </div>
           {/* links */}
           <div className='flex justify-end items-center gap-14'>

@@ -15,6 +15,8 @@ function App() {
       <Hero />
       <Introduction />
       <Projects />
+      <RoadMap />
+      <Logoticker />
     </>
   )
 }
