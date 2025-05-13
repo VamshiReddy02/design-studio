@@ -67,7 +67,7 @@ const RoadMap: React.FC = () => {
   return (
     <section className="py-32 text-white">
       <div className="container mx-auto relative px-4">
-        <h1 className="text-4xl font-semibold text-center mb-5 tracking-tight">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl text-center font-normal">
           Roadmap
         </h1>
         <p className="text-center md:text-lg lg:text-xl xl:text-2xl text-white/50 mb-15 max-w-md mx-auto">
