@@ -10,11 +10,6 @@ const productDesignProcess = [
     imgPath: "/images/phase1.png",
     logoPath: "/images/logo1.png",
     review: "Gathering user insights and aligning with product goals ensures meaningful and targeted outcomes.",
-    responsibilities: [
-      "Collaborated with UI/UX designers and stakeholders to identify user needs.",
-      "Conducted research and gathered feedback to define core problems.",
-      "Aligned product features with business goals.",
-    ],
   },
   {
     title: "Plan & Architect the Solution",
@@ -22,11 +17,6 @@ const productDesignProcess = [
     imgPath: "/images/phase2.png",
     logoPath: "/images/logo2.png",
     review: "Strong architectural planning lays the foundation for scalable and maintainable products.",
-    responsibilities: [
-      "Designed scalable architecture suited to product requirements.",
-      "Selected appropriate frameworks and technologies.",
-      "Defined API contracts and integration points.",
-    ],
   },
   {
     title: "Design the User Experience",
@@ -34,11 +24,6 @@ const productDesignProcess = [
     imgPath: "/images/phase3.png",
     logoPath: "/images/logo3.png",
     review: "UI/UX collaboration ensures intuitive and accessible interfaces across devices.",
-    responsibilities: [
-      "Converted wireframes into high-fidelity designs.",
-      "Ensured consistent design language and accessibility standards.",
-      "Validated designs with users and stakeholders.",
-    ],
   },
   {
     title: "Develop Frontend & Backend Systems",
@@ -46,11 +31,6 @@ const productDesignProcess = [
     imgPath: "/images/phase4.png",
     logoPath: "/images/logo4.png",
     review: "Seamless integration of frontend and backend components results in robust applications.",
-    responsibilities: [
-      "Built responsive user interfaces using modern frameworks.",
-      "Integrated backend APIs for dynamic functionality.",
-      "Ensured smooth collaboration between frontend and backend teams.",
-    ],
   },
   {
     title: "Optimize for Performance & Scalability",
@@ -58,11 +38,6 @@ const productDesignProcess = [
     imgPath: "/images/phase5.png",
     logoPath: "/images/logo5.png",
     review: "Performance tuning ensures fast, scalable experiences for users across platforms.",
-    responsibilities: [
-      "Reduced load times and optimized rendering performance.",
-      "Implemented lazy loading and caching strategies.",
-      "Monitored and improved system scalability.",
-    ],
   },
   {
     title: "Test & Iterate",
@@ -70,11 +45,6 @@ const productDesignProcess = [
     imgPath: "/images/phase6.png",
     logoPath: "/images/logo6.png",
     review: "Continuous testing and iteration lead to refined and reliable products.",
-    responsibilities: [
-      "Conducted unit, integration, and usability tests.",
-      "Collected user feedback and analytics post-deployment.",
-      "Refined features based on test results and metrics.",
-    ],
   },
   {
     title: "Launch & Maintain",
@@ -82,11 +52,6 @@ const productDesignProcess = [
     imgPath: "/images/phase7.png",
     logoPath: "/images/logo7.png",
     review: "Ongoing support and iteration keep the product aligned with evolving needs.",
-    responsibilities: [
-      "Deployed the product to production environments.",
-      "Monitored real-world performance and addressed issues.",
-      "Rolled out feature updates and enhancements regularly.",
-    ],
   },
 ];
 
@@ -102,13 +67,16 @@ const RoadMap: React.FC = () => {
   return (
     <section className="py-32 text-white">
       <div className="container mx-auto relative px-4">
-        <h1 className="text-4xl font-extrabold text-center mb-24 tracking-tight">
+        <h1 className="text-4xl font-semibold text-center mb-5 tracking-tight">
           Roadmap
         </h1>
+        <p className="text-center md:text-lg lg:text-xl xl:text-2xl text-white/50 mb-15 max-w-md mx-auto">
+          How we bring ideas to life
+        </p>
 
         <div className="relative">
           <motion.div
-            style={{ height: `${visibleCardIndex * 310}px` }}
+            style={{ height: `${visibleCardIndex * 325}px` }}
             className="absolute left-1/2 top-0 w-[2px] bg-white transform -translate-x-1/2 z-10 transition-all duration-500"
           />
 
